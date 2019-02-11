@@ -6,5 +6,5 @@ window.onload=function(){
         localStorage.removeItem("temp");
         return false;
     }
-    document.getElementById('commodity').style.display = '';
+    document.getElementById('commodity').style.display = 'block';
 }

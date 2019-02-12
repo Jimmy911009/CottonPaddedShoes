@@ -1,3 +1,23 @@
+html,body{
+    width: 100%;
+    background-color: #ad8de6;
+}
 #commodity{
     display: none;
+    /* padding: 10px; */
+}
+.information{
+    width: 60%;
+    margin: 20% auto 0;
+    color: #ffffff;
+}
+.information li{
+    margin: 15px 0;
+}
+.address{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 5%;
 }

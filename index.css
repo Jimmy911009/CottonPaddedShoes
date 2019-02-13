@@ -15,18 +15,14 @@ html,body{
 .information li{
     margin: 15px 0;
 }
-.company-name,.address{
+.botton{
     width: 100%;
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 10px;
-    line-height: 25px;
-}
-.company-name{
-    bottom: 45px;
+    bottom: 30px;
+    line-height: 30px;
 }
 .address{
-    bottom: 10px;
     font-size: 15px;
 }

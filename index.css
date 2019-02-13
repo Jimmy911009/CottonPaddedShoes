@@ -20,8 +20,8 @@ html,body{
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 30px;
-    line-height: 30px;
+    bottom: 10%;
+    line-height: 25px;
 }
 .address{
     font-size: 15px;

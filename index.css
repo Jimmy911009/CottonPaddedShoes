@@ -5,6 +5,7 @@ html,body{
 #commodity{
     display: none;
     /* padding: 10px; */
+    font-size: 20px;
 }
 .information{
     width: 60%;
@@ -14,10 +15,18 @@ html,body{
 .information li{
     margin: 15px 0;
 }
-.address{
+.company-name,.address{
     width: 100%;
     text-align: center;
     color: #ffffff;
     position: absolute;
-    bottom: 5%;
+    bottom: 10px;
+    line-height: 25px;
+}
+.company-name{
+    bottom: 45px;
+}
+.address{
+    bottom: 10px;
+    font-size: 15px;
 }

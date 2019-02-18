@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="no-cache">
+    <title>商品信息</title>
+    <link rel="stylesheet" href="currency.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="">
+        <div id="open">
+            点击
+        </div>
+    </div>
+    <script>
+        document.getElementById('open').onclick = function(){
+            const iframe = document.createElement('iframe');
+            console.log('请求')
+            iframe.src = 'cmbgold://cmbls/functionjump'; // URL scheme的方式跳转
+            
+            iframe.style.display = 'none';
+            console.log('打开')
+            document.body.appendChild(iframe);
+        }
+        // openApp = (src) => {
+        //     const iframe = document.createElement('iframe');
+        //     console.log('请求')
+        //     iframe.src = 'cmbgold://cmbls/functionjump'; // URL scheme的方式跳转
+            
+        //     iframe.style.display = 'none';
+        //     console.log('打开')
+        //     document.body.appendChild(iframe);
+
+        //     const timer = 1000;
+
+        //     setTimeout(function() {
+
+        //             // 执行成功后移除iframe
+
+        //         document.body.removeChild(iframe);
+
+        //         //setTimeout小于2000通常认为是唤起APP失败 
+
+        //         if (Date.now() - last < 2000) {
+
+        //                 // 执行失败函数
+
+        //                 // 这里需要考虑一下之前知乎遇到的那个问题（浏览器询问导致时间小于2S）
+
+        //         } else {
+
+        //             //  执行成功函数
+
+        //             }
+
+        //     }, timer);
+        // }
+    </script>
+</body>
+
+</html>

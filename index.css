@@ -3,7 +3,7 @@ html,body{
     background-color: #ad8de6;
 }
 #commodity{
-    display: none;
+    /* display: none; */
     /* padding: 10px; */
     font-size: 20px;
 }

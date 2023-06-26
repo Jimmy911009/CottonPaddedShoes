@@ -37,3 +37,14 @@ html,body{
 .address{
     font-size: 15px;
 }
+
+/* 单独处理 */
+#commodity .com{
+    width: 65%;
+    margin: 25% auto 0;
+    font-size: 25px;
+}
+
+#commodity .com li{
+    margin: 15% 0;
+}
